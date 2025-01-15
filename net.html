@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>カラオケ　VOICEネット予約</title>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/module.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slick.css">
+
+<link rel="stylesheet" href="css/topjs.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/slick.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(function(){
+$('.single-item').slick({
+    accessibility: false,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    dots: false,
+    fade: true,
+	arrows:false,
+	vertical: false,
+	centerMode: true,
+	 pauseOnHover: false,
+	slidesToShow: 1,
+  });
+});
+</script>
+
+
+
+
+<script src="js/topjs.js"></script>
+</head>
+
+
+
+<body>
+<!-- ヘッダー --------------------------------------->
+<header>
+<h1><a href="#" title="ロゴ　ホーム"><img src="img/voice2.png" alt="見出し"></a></h1>
+
+<!-- ナビ -------------------------------------------->
+<nav>
+<div class="ul1">
+<ul>
+<li class="hm"><a href="index.html" title="">ホーム</a></li>
+<li class="co"><a href="room_model.html" title="">ルーム<span>・</span>機種紹介</a>
+
+
+<div id="ul1_sub">
+<ul>
+<li><img src="img/liveroom1.png" alt="ライブルーム"></li>
+<li><img src="img/liveroom2.png" alt="ライブルーム"></li>
+<li><img src="img/liveroom3.png" alt="ライブルーム"></li>
+<li><img src="img/compactroom.png" alt="コンパクトルーム"></li>
+<li><img src="img/stylishroom.png" alt="スタイリッシュルーム"></li>
+<li><img src="img/stageroom.png" alt="ステージルーム"></li>
+<li><img src="img/partyroom.png" alt="パーティールーム"></li>
+<li><img src="img/viproom.png" alt="ビップルーム"></li>
+</ul>
+</div>
+
+</li>
+<li class="fd"><a href="food_drink.html" title="">フード<span>・</span>ドリンク<span>・</span>スイーツ</a></li>
+<li class="ac"><a href="access.html" title="">地図</a></li>
+</ul>
+</div>
+
+<div id="ul23">
+<ul class="ul2">
+<li class="ul2a"><a href="#" title="">法人会員<span>ログイン</span></a></li>
+<li class="ul2b"><a href="#" title="">携帯会員<span>ログイン</span></a></li>
+</ul>
+
+<ul class="ul3">
+<li><a href="question.html" title=""><img src="img/contact.jpg" alt="お問い合わせ"></a></li>
+<li><a href="net.html" title=""><img src="img/reservation.jpg" alt="ネット予約"></a></li>
+<li><a href="shop.html" title=""><img src="img/store.jpg" alt="店舗検索"></a></li>
+<li><a href="coupon.html" title=""><img src="img/couponlogo.jpg" alt="クーポン"></a></li>
+</ul>
+</div>
+
+</nav>
+</header>
+
+<!-- トップ -------------------------------------------->
+<section id="net">
+<h2>ネット予約</h2>
+
+</section>
+
+<!-- メイン ------------------------------------------->
+<main>
+
+
+<!-- ご利用店舗を決める ----------------------------------------------->
+<section id="shopd">
+<h2>ご利用店舗を決める</h2>
+<div>
+<select name="shop">
+<option value="北海道">北海道</option>
+<option value="東北">東北</option>
+<option value="関東">関東</option>
+<option value="中部">中部</option>
+<option value="近畿">近畿</option>
+<option value="中国">中国</option>
+<option value="四国">四国</option>
+<option value="九州・沖縄">九州・沖縄</option>
+</select>
+</div>
+
+</section>
+
+
+<!-- ご利用日時・時間・人数を決める ------------------------------------------>
+<section id="day">
+<h2>ご利用日時・時間・人数を決める</h2>
+<div>
+<dl>
+<dt>ご利用日</dt>
+<dd>2020年8月30日㈰</dd>
+</dl>
+
+<dl>
+<dt>ご利用開始時間（ご利用時間）</dt>
+<dd>18時から（2時間利用）</dd>
+</dl>
+
+<dl>
+<dt>ご利用人数</dt>
+<dd>大人5人</dd>
+</dl>
+</div>
+</section>
+
+
+<!-- お客様情報を入力する --------------------------->
+<form action="#" method="post">
+<section id="information">
+<h2>お客様情報を入力する</h2>
+<div>
+<dl>
+<dt>お名前（カタカナ）　<span>必須</span></dt>
+<dd><input type="text" name="name"></dd>
+<dt>会社名</dt>
+<dd><input type="text" name="company"></dd>
+<dt>電話番号　          <span>必須</span></dt>
+<dd><input type="text" name="phone_number"></dd>
+<dt>メールアドレス　    <span>必須</span></dt>
+<dd><input type="text" name="mail_address"></dd>
+
+<dt>年齢</dt>
+<dd>
+<select name="age">
+<option value="10代">10代</option>
+<option value="20代">20代</option>
+<option value="30代">30代</option>
+<option value="40代">40代</option>
+<option value="50代">50代</option>
+<option value="60代以上">60代以上</option>
+</select>
+</dd>
+
+<dt>ご要望欄</dt>
+<dd><textarea></textarea></dd>
+</dl>
+</div>
+
+<p><input type="submit" value="送信"></p>
+
+</section>
+</form>
+
+
+</main>
+
+<!-- フッター ------------------------------------------->
+<footer>
+<div id="fu">
+<ul>
+<li><a href="index.html" title="">ホーム</a></li>
+<li class="rom"><a href="room_model.html" title="">ルーム<span>・</span>機種紹介</a></li>
+<li class="fod"><a href="food_drink.html" title="">フード<span>・</span>ドリンク<span>・</span>スイーツ</a></li>
+<li><a href="access.html" title="">地図</a></li>
+</ul>
+</div>
+<img src="img/voice2.gif" alt="お店ロゴ" class="logo">
+
+<small>Copyright Standard Corp,All Rights Reserved,</small>
+</footer>
+
+
+
+
+
+</body>
+</html>
+

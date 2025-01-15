@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css"/>
+
+<title>Swiper.jsのサンプルその1 ノーマルスライダー</title>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+
+
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        	<img src="img/toplogo1.jpg" alt="トップ画像1">
+        </div>
+        <div class="swiper-slide">
+        	<img src="img/toplogo2.jpg" alt="トップ画像1">
+        </div>
+        <div class="swiper-slide">
+        	<img src="img/kansenboshi.jpg" alt="トップ画像1">
+        </div>
+
+    </div>
+ 
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+ 
+</div>
+
+
+<style>
+.swiper-container {
+    width: 100%;
+}
+.swiper-container{
+	text-align: center;
+}
+.swiper-container .swiper-slide img{
+	max-width: 100%;
+	height: auto;
+}
+</style>
+
+
+<script type="text/javascript">var mySwiper=new Swiper('.swiper-container',{loop:true,speed:600,slidesPerView:1,spaceBetween:0,direction:'horizontal',effect:'slide',autoplay:{delay:3000,stopOnLast:false,disableOnInteraction:true},pagination:{el:'.swiper-pagination',},navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev',},});</script>
+</body>
+</html>
