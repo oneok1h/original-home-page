@@ -1,0 +1,235 @@
+    <!DOCTYPE html>
+    <html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/page.css">
+        <link rel="stylesheet" href="/css/single.css">
+                    <title>ページが見つかりませんでした &#8211; デザイン枠専門サイトFRAME Design</title>
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='style-maintenance-css'  href='https://frames-design.com/wp-content/plugins/wp-ultimate-csv-importer/assets/css/style-maintenance.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://frames-design.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://frames-design.com/wp-content/themes/frame_design_new/style.css?ver=1.0.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1596440947","secure":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://frames-design.com/wp-includes/js/utils.min.js?ver=5.3.4'></script>
+<link rel='https://api.w.org/' href='https://frames-design.com/wp-json/' />
+<script type="text/javascript">
+	window._se_plugin_version = '8.1.9';
+</script>
+            <meta name="keywords" content="FRAME Design,デザインフレーム,飾り枠,フレーム" />
+            <meta content="1000以上の飾り枠専門サイト" name="description" />
+            <link rel="icon" type="image/png" href="/favicon.png" />
+            <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+            <link rel="manifest" href="/site.webmanifest">
+            <meta name="msapplication-TileColor" content="#da532c">
+            <meta name="theme-color" content="#ffffff">
+
+
+
+    </head>
+
+    <body class="error404">
+        <div id="wrap">
+
+            <header id="header">
+                <div class="innerWrap">
+                    <h1 id="logo"><a href="https://frames-design.com"><img src="/img/logofm.svg" alt="フレームデザイン"></a></h1>
+                    <!-- /#logo -->
+                    <div id="searchBox" class="clearfix">
+                        <form id="searchform" action="https://frames-design.com" method="get" role="search">
+                            <input id="search_txt" type="text" name="s" value="" placeholder="search">
+                            <input id="search_submit" type="submit">
+                        </form>
+                    </div>
+                    <!-- /#searchBox -->
+                    <ul id="globalFmNav">
+                        <li><a href="https://frames-design.com/whats">フレームデザインとは？</a></li>
+                        <li><a href="https://frames-design.com/howtouse">飾り枠素材の使い方</a></li>
+                        <li><a href="https://frames-design.com/terms">ライセンス</a></li>
+                        <li><a href="https://frames-design.com/links">素材LINKS</a></li>
+                    </ul>
+                    <!-- /#globalNav -->
+                    <p class="topleadtxt">
+                        Frame Designは<a href="https://twitter.com/topeconheroes" target="_blank">TOPECONHEROESダーヤマ</a>作の飾り枠素材をひたすら保管していくサイトです。
+                    </p>
+                    <!-- /.topleadtxt -->
+                </div>
+                <!-- /.innerWrap -->
+
+                <div id="catlistWrap">
+                    <ul id="catlist">
+                        <li><a href="https://frames-design.com/?category_name=circle">丸</a></li>
+                        <li><a href="https://frames-design.com/?category_name=ellipse">楕円</a></li>
+                        <li><a href="https://frames-design.com/?category_name=square">四角</a></li>
+                        <li><a href="https://frames-design.com/?category_name=rect">長方形</a></li>
+                        <li><a href="https://frames-design.com/?category_name=corner">四隅</a></li>
+                        <li><a href="https://frames-design.com/?category_name=updown">上下or左右</a></li>
+                        <li><a href="https://frames-design.com/?category_name=balloon">フキダシ</a></li>
+                        <li><a href="https://frames-design.com/?category_name=wax">封蝋</a></li>
+                        <li><a href="https://frames-design.com/?category_name=label">ラベル</a></li>
+                        <li><a href="https://frames-design.com/?category_name=ribbon">リボン</a></li>
+                        <li><a href="https://frames-design.com/?category_name=race">レース</a></li>
+                        <li><a href="https://frames-design.com/?category_name=other">その他</a></li>
+
+                    </ul>
+                    <!-- /#catlist -->
+                    <ul id="catlist2">
+                        <li><a href="https://frames-design.com/?category_name=classic">クラシック</a></li>
+                        <li><a href="https://frames-design.com/?category_name=luxury">高級</a></li>
+                        <li><a href="https://frames-design.com/?category_name=award">アワード</a></li>
+                        <li><a href="https://frames-design.com/?category_name=japan">和風</a></li>
+                        <li><a href="https://frames-design.com/?category_name=gorgeous">ゴージャス</a></li>
+                        <li><a href="https://frames-design.com/?category_name=pop">ポップ</a></li>
+
+                        <li><a href="https://frames-design.com/?category_name=simple">シンプル</a></li>
+                        <li><a href="https://frames-design.com/?category_name=colorful">カラフル</a></li>
+                        <li><a href="https://frames-design.com/?category_name=recomend">おすすめ</a></li>
+                    </ul>
+                    <!-- /#catlist -->
+                </div>
+                <!-- /#catlistWrap -->
+
+                <div id="btnMenu"><img src="/img/btn_menu.png" alt="menu"></div>
+                <div id="aori"><img src="/img/aori.png" alt="総素材数1200以上"></div>
+            </header>
+
+            <div id="contents">
+
+    <h1>404エラー　ページがないよ</h1>
+    <div class="sory">
+        お探しのページは残念ながら存在しません。
+        <br> ロゴから<a href="https://frame-design.com/">トップページ</a>に戻ろう。
+    </div>
+    <div>
+        とりあえず、おすすめのデザインフレームを紹介しておきます。
+    </div>
+    <!-- /.sory -->
+
+
+
+
+    <!--WPFC_FOOTER_START-->
+
+    </div>
+    <!-- /#contents -->
+    
+
+
+    <!-- //.pageNav -->
+
+
+    <section id="links">
+        <ul class="linkul clearfix">
+            <li>
+    <a href="https://stampo.fun"><img src="/img/bannerstampo300.jpg" alt="スタンプ素材"></a>
+</li>
+
+<li>
+    <script type="text/javascript">
+    <!--
+    google_ad_client = "pub-9539967867312746";
+    /* 300x250, 作成済み 10/04/04 */
+    google_ad_slot = "5764560103";
+    google_ad_width = 300;
+    google_ad_height = 250;
+    //-->
+
+</script>
+<script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+
+
+</script>
+</li>
+<li>
+    <a href="http://pictogram2.com"><img src="/img/linkbanner1.png" alt="ピクトグラム素材"></a>
+</li>
+<li>
+    <a href="http://event-pre.com/"><img src="/img/linkbanner2.png" alt="ハロウィン、クリスマスイラスト"></a>
+
+</li>
+        </ul>
+
+
+    </section>
+
+
+
+    <div id="pageTop"><a href=""><i>ページトップ</i></a></div>
+    <!-- /#pageTop -->
+
+
+    <footer id="footer">
+        <div id="footerInner">
+            <ul id="footerNav">
+                <li><a href="https://frames-design.com/whats">フレームデザインとは？</a></li>
+                <li><a href="https://frames-design.com/howtouse">飾り枠素材の使い方</a></li>
+                <li><a href="https://frames-design.com/terms">ライセンス</a></li>
+                <li><a href="https://frames-design.com/links">素材LINKS</a></li>
+            </ul>
+            <!-- /#footerNav -->
+            <div id="footlogos">
+                <p><a href="/"><img src="/img/logofm.svg" alt="Frame Design"></a></p>
+                <p><a href="https://twitter.com/topeconheroes"><img src="/img/tplogo.png" alt="TOPECONHEROES"></a></p>
+            </div>
+            <!-- /#footlogos -->
+            <small>&copy;TopeconHeroes all right reserved. </small>
+        </div>
+        <!-- /#footerInner -->
+    </footer>
+    <!-- /#footer -->
+    </div>
+    <!-- /#wrap -->
+    <ul id="globalFmNavSP">
+        <li id="btnSPclose"><img src="/img/btn_close2.png" alt=""></li>
+        <li><a href="https://frames-design.com/whats">フレームデザインとは？</a></li>
+        <li><a href="https://frames-design.com/howtouse">飾り枠素材の使い方</a></li>
+        <li><a href="https://frames-design.com/terms">ライセンス</a></li>
+        <li><a href="https://frames-design.com/links">素材LINKS</a></li>
+    </ul>
+    <!-- /#globalNavSP -->
+
+    
+
+    <script type="text/javascript" src="/js/common.js"></script>
+
+    <script type='text/javascript' src='https://frames-design.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var commonL10n = {"warnDelete":"\u3053\u308c\u3089\u306e\u9805\u76ee\u3092\u30b5\u30a4\u30c8\u304b\u3089\u5b8c\u5168\u306b\u524a\u9664\u3057\u3088\u3046\u3068\u3057\u3066\u3044\u307e\u3059\u3002\n\u3053\u306e\u64cd\u4f5c\u306f\u53d6\u308a\u6d88\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u305b\u3093\u3002\n \u4e2d\u6b62\u3059\u308b\u306b\u306f\u300c\u30ad\u30e3\u30f3\u30bb\u30eb\u300d\u3092\u3001\u524a\u9664\u3059\u308b\u306b\u306f\u300cOK\u300d\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002","dismiss":"\u3053\u306e\u901a\u77e5\u3092\u975e\u8868\u793a\u306b\u3059\u308b","collapseMenu":"\u30e1\u30a4\u30f3\u30e1\u30cb\u30e5\u30fc\u3092\u6298\u308a\u305f\u305f\u3080","expandMenu":"\u30e1\u30a4\u30f3\u30e1\u30cb\u30e5\u30fc\u3092\u5c55\u958b"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://frames-design.com/wp-admin/js/common.min.js?ver=5.3.4'></script>
+<script type='text/javascript' src='https://frames-design.com/wp-includes/js/wp-embed.min.js?ver=5.3.4'></script>
+
+    <!--common header -->
+    <link rel="stylesheet" href="https://topeconheroes.com/tpcommonheader/tpcommonheader.css" />
+    <script type="text/javascript" src="https://topeconheroes.com/tpcommonheader/tpcommonheader.js"></script>
+    <div id="tplinkheader">
+        <ul></ul>
+        <div id="bPointer"></div>
+    </div>
+    <!-- /#tplinkheader -->
+    <!--common end -->
+
+
+
+
+
+    </body>
+
+    </html>
