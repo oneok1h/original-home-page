@@ -1,0 +1,1499 @@
+@charset "utf-8";
+
+
+h2{
+	font-size:36px;
+	font-weight:bold;
+	margin:30px 0;
+}
+/* 全体の幅 */
+body{
+	padding-top:80px;
+}
+
+/* メイン */
+main{
+	max-width:1000px;
+	margin:auto;
+	padding:0 1em;
+	box-sizing:border-box;
+}
+
+
+/* トップ */
+#top{
+	margin-top:120px;
+}
+
+ 
+
+
+/* ニュース */
+
+#news .ni h2{
+	text-align:center;
+	margin-bottom:30px;
+	padding-bottom:20px;
+	border-bottom:solid 1px #4000ff;
+}
+#news .ni h2 strong{
+	display:block;
+	font-size:35px;
+	font-weight:bold;
+}
+#news .ni h2 span{
+	display:block;
+	font-size:30px;
+	text-align:center;
+}
+#news .ni ul{
+	display:flex;
+	justify-content:space-between;
+	margin:auto;
+	max-width:900px;
+}
+#news .ni li{
+	width:250px;
+	text-align:left;
+}
+#news .ni li img{
+	width:100%;
+	border-radius:10px;
+}
+#news .ni .np1{
+	font-weight:bold;
+	font-size:20px;
+	margin:10px 0;
+}
+#news .ni .np2{
+	letter-spacing:4px;
+}
+
+/* コンセプト */
+#top2{
+	margin-bottom:60px;
+}
+#top2 .t2d{
+	background:url(../img/mikestand2.jpg);
+	width:100%;
+	height:400px;
+	border-radius:10px;
+	padding:2em;
+	box-sizing:border-box;
+	color:#fff;
+}
+#top2 .t2d p{
+	font-size:1.1em;
+	width:300px;
+	line-height:1.6em;
+	text-align:left;
+	text-indent:1em;
+	
+	letter-spacing:8px;
+}
+#top2 h2{
+	text-align:center;
+	margin-bottom:30px;
+	padding-bottom:20px;
+	border-bottom:solid 1px #4000ff;
+}
+#top2 h2 strong{
+	display:block;
+	font-size:35px;
+	font-weight:bold;
+}
+#top2 h2 span{
+	display:block;
+	font-size:30px;
+	text-align:center;
+}
+
+
+/* 料金説明 */
+#price h2{
+	border-bottom:solid 1px #4000ff;
+	margin-bottom:50px;
+	padding-bottom:20px;
+}
+#price table{
+	width:900px;
+	font-size:20px;
+	border-collapse:collapse;
+	margin:auto;
+}
+#price small{
+	font-size:16px;
+	font-weight:normal;
+}
+#price table th:first-child{
+	width:30%;
+	font-size:25px;
+	color:#0099CC;
+}
+#price table th:nth-child(2),#price table td:nth-child(2){
+	color:#f00;
+	font-size:35px;
+}
+#price table td{
+	width:35%;
+}
+#price table th:nth-child(3),#price table td:nth-child(3){
+	 font-size:35px;
+}
+#price table th,#price table td{
+	height:80px;
+	font-weight:bold;
+	text-align:center;
+	border:solid 5px #4000ff;
+	box-sizing:border-box;
+}
+#price h3{
+	text-align:center;
+	width:900px;
+	background:#ddd;
+	margin:30px auto;
+	padding:20px 0;
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+/* キャンペーン */
+#campaign h2{
+	border-bottom:solid 1px #4000ff;
+	padding:20px;
+}
+#campaign .logo{
+	width:100%;
+	padding:20px;
+	box-sizing:border-box;
+}
+#campaign .logo1{
+	width:700px;
+}
+#campaign img{
+	width:100%;
+}
+#campaign .imgd{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#campaign .drink{
+	width:260px;
+	margin-left:20px;
+	position:relative;	
+}
+#campaign .drink img{
+	width:100%;
+	border-radius:10px;
+}
+
+
+/* フードメニュー */
+#food h2{
+	padding:10px 0;
+	color:#fff;
+	background:#f00;
+	border-radius:5px;
+}
+#food li strong{
+	display:block;
+	font-size:35px;
+	padding:20px 0;
+	margin:20px 0;
+	border-bottom:dotted 3px #f11;
+	font-weight:bold;
+}
+
+/* ドリンクメニュー */
+#drink{
+	margin-bottom:40px;
+}
+#drink h2{
+	padding:10px 0;
+	color:#fff;
+	background:#0000ff;
+	border-radius:5px;
+}
+
+/* スイーツ */
+#sweets{
+	margin-bottom:50px;
+}
+
+/* ルーム */
+#room h2{
+	background:#1f00ab;
+	color:#fff;
+	margin-top:50px;
+	margin-bottom:50px;
+	padding:10px 0;
+	border-radius:5px;
+}
+#room ul{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+#room li{
+	margin-bottom:50px;
+}
+#room li img{
+	width:100%;
+}
+
+
+/* カラオケ機種❶ */
+#model h2{
+	background:#1f00ab;
+	color:#fff;
+	margin-top:120px;
+	padding:10px 0;
+	border-radius:5px;
+}
+#model ul{
+	display:flex;
+	justify-content:space-between;
+	margin:20px 0 80px 0;
+}
+
+/* クーポン */
+#coupon h2{
+	padding:10px 0;
+	border-radius:5px;
+	color:#fff;
+	background:#19a018;
+}
+#coupon img{
+	margin:50px auto;
+}
+
+/* アクセス */
+#access h2{
+	margin:50px 0 100px 0;
+	padding:10px 0;
+	border-radius:5px;
+	background:#ba641e;
+}
+#access iframe{	
+	margin:auto;
+	margin-bottom:50px;
+}
+#access table{
+	margin-left:100px;
+	margin-bottom:50px;
+}
+#access th{
+	font-size:20px;
+	text-align:left;
+	width:150px;
+}
+#access td{
+	text-align:left;
+	font-size:18px;
+}
+
+
+/* 店舗検索 */
+#shop h2{
+	text-align:left;
+}
+.search h2{
+	padding:20px 0;
+	color:#fff;
+	background:#31ccff;
+	width:1000px;
+	margin:50px auto 0 auto;
+	border-radius:5px;
+}
+.search p{
+	font-size:20px;
+	font-weight:bold;
+	width:800px;
+	margin:auto;
+	padding:20px 0;
+	background:url(../img/shoptop.png);
+	border-radius:5px;
+}
+#shop h2{
+	color:#0022cd;
+	background:none;
+	font-size:35px;
+}
+
+
+/* フリーワード */
+#shop .free p{
+	display:block;
+	border:solid 1px #ddd;
+	padding:20px;
+}
+#shop .free p input{
+	display:block;
+	font-size:20px;
+	width:600px;
+	padding:15px;
+	box-sizing:border-box;
+	border:solid 2px #000;
+	border-radius:5px;
+}
+
+/* エリア */
+#area .ul1{
+	display:block;
+	overflow:hidden;
+}
+#area .ul1 li{
+	width:160px;
+	margin-left:38px;
+	float:left;
+	
+}
+#area li a{
+	display:block;
+	width:160px;
+	line-height:50px;
+	margin:10px 10px 10px 0;
+	font-size:21px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#0022cd;
+	border:solid 3px #ddd;
+}
+
+/* 収容人数 */
+#people form{
+	padding:25px 120px 10px 120px;
+	border:solid 2px #ddd;
+}
+#people form ul{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+#people form li{
+	margin-bottom:20px;
+}	
+#people input{
+	margin:5px 10px 5px 20px;
+}
+#people label{
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+/* カラオケ機種❷ */
+#model2 form ul{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	border:solid 2px #ddd;
+	margin-bottom:40px;
+	padding:20px;
+}
+#model2 li label{
+	font-size:20px;
+	font-weight:bold;
+}
+#model2 li input{
+	margin-right:10px;
+} 
+#model2 li span{
+	margin-left:10px;
+}
+#model2 li div{
+	display:inline-block;
+	margin-left:10px;
+}
+
+
+/* ネット予約 */
+#net h2{
+	background:#fedb36;
+	width:1000px;
+	margin:50px auto;
+	padding:20px 0;
+	border-radius:5px;
+	color:#fff;
+}
+
+
+
+/* ご利用店舗を決める */
+#shopd{
+	margin:80px 0;
+}
+#shopd h2{
+	font-size:30px;
+	text-align:left;
+	font-weight:bold;
+}
+#shopd h2:before{
+	content:"●";
+	color:blue;
+}
+#shopd select{
+	font-size:25px;
+	width:100%;
+	max-width:700px;
+	padding:20px;
+	border:solid 2px blue;
+	border-radius:5px;
+	box-sizing:border-box;
+	background:#fff8b9;
+}
+
+/* ご利用日時・時間・人数を決める */
+#day{
+	text-align:left;
+}
+#day h2{
+	font-size:30px;
+	text-align:left;
+	font-weight:bold;
+}
+#day h2:before{
+	content:"●";
+	color:blue;
+}
+#day dl{
+	padding:20px 0 10px 80px;
+}
+#day dt{
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+#day div{
+	width:600px;
+	padding-bottom:10px;
+	margin-left:145px;
+	border-radius:5px;
+	border:solid 2px #3930cc;
+	background:#fff8b9;
+}
+
+/* お客様情報を入力する */
+#information{
+	margin-bottom:60px;
+}
+#information span{
+	font-size:15px;
+	color:#f00;
+}
+#information h2{
+	font-size:30px;
+	text-align:left;
+	font-weight:bold;
+}
+#information h2:before{
+	content:"●";
+	color:blue;
+}
+#information dl{
+	display:flex;
+	flex-wrap:wrap;
+	text-align:left;
+	max-width:700px;
+	margin:0 auto 50px auto;
+}
+
+#information dt{
+	width:40%;
+	font-size:18px;
+	font-weight:bold;
+	padding:1em 0;
+}
+#information dd{
+	width:60%;
+	padding:0.5em 0;	
+}
+#information input[type="text"]{
+	width:100%;
+	padding:0.5em;
+	box-sizing:border-box;
+}
+#information select{
+	width:100px;
+	padding:0.5em;
+	box-sizing:border-box;
+}
+textarea{
+	width:400px;
+	height:200px;
+}
+#information p input[type="submit"]{
+	width:100px;
+	padding:0.5em 1em;
+	border-radius:5px;
+}
+#information p input[type="submit"]:hover{
+	background:#21fff7;
+	border-radius:5px;
+}
+
+/* よくあるご質問・お問い合わせ */
+#question h2{
+	max-width:1100px;
+	margin:70px auto 30px auto;
+	padding:20px 0;
+	border-radius:5px;
+	color:#fff;
+	background:#7aabfe;
+}
+
+
+/* よくあるご質問 */
+#question1 h2,#question2 h2{
+	font-size:35px;
+	width:1000px;
+	margin:auto;
+	padding:10px 0;
+	border-radius:5px;
+	background:url(../img/shoptop.png);
+}
+#question1 dl{
+	margin:auto;
+	max-width:650px;
+	margin-top:30px;
+	border-top:solid 2px #ddd;
+}
+#question1 dt{
+	font-size:22px;
+	color:#002054;
+	font-weight:bold;
+}
+#question1 dt img{
+	max-width:25px;
+	float:left;
+	margin-right:10px;
+}
+#question1 dd{
+	font-size:18px;
+	margin:10px 0 0 40px;
+	text-indent:1em;
+	line-height:1.5em;
+	letter-spacing:5px;
+}
+#question1 dt,#question1 dd{
+	text-align:left;
+}
+#question1 div{
+	max-width:650px;
+	margin:30px auto 30px auto;
+	padding-bottom:30px;
+	border-bottom:solid 2px #ddd;
+}
+
+/* 各種お問い合わせ */
+#question2{
+	max-width:1100px;
+}
+#question2 dl{
+	overflow:hidden;
+	max-width:900px;
+	margin:50px auto 50px auto;
+	padding:50px;
+	border:solid 2px #ddd;
+}
+#question2 dt{
+	font-size:22px;
+	font-weight:bold;
+	color:#002054;
+	padding-bottom:20px;
+	border-bottom:solid 1px #002054;
+}
+#question2 .ques1{
+	float:left;
+	max-width:400px;
+}
+#question2 .ques1 dd{
+	font-size:16px;
+	text-align:left;
+	padding-top:15px;
+	letter-spacing:4px;
+	line-height:25px;
+}
+#question2 .ques1 p a{
+	display:block;
+	font-size:22px;
+	font-weight:bold;
+	margin-top:40px;
+	padding:20px 0;
+	max-width:400px;
+	color:#002054;
+	background:#fedb36;
+	transition:opacity 0.5s;
+}
+#question2 .ques1 p a:after{
+	content:">";
+	float:right;
+}
+#question2 .ques1 p a:hover{
+	text-decoration:none;
+	opacity:0.5;
+}
+
+
+#question2 .ques2{
+	float:right;
+	max-width:400px;
+}
+#question2 .ques2 dd{
+	font-weight:bold;
+	padding-top:15px;
+}
+#question2 .ques2 span{
+	display:inlne;
+	font-size:28px;
+	color:#002054;
+}
+#question2 .ques2 div{
+	display:block;
+	margin-top:40px;
+	overflow:hidden;
+}
+#question2 .ques2 div dd{
+	font-size:14px;
+	font-weight:normal;
+	color:#7a7a7a;
+	text-align:left;
+	float:rigth;
+	padding-left:1em;
+	text-indent:-1em;
+}
+#question2 .ques2 div dd span{
+	font-size:15px;
+	color:#7a7a7a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+/* メイン */
+.loopSlider {
+	margin-top:110px;
+}
+.loopSlider li{
+	width:100%;
+}
+main{
+	width:100%;
+	box-sizing:border-box;
+}
+
+/* トップ */
+
+
+/* ニュース */
+#news h2{
+	margin-top:80px;
+}
+#news .ni li{
+	width:200px;
+}
+#news .ni .np1{
+	margin:10px 0;
+}
+#news .ni .np2{
+	line-height:22px;
+}
+
+
+/* 料金説明 */
+#price table{
+	width:100%;
+}
+#price h3{
+	text-align:center;
+	width:100%;	
+}
+
+
+/* 昼のキャンペーン */
+#campaign{
+	width:100%;
+}
+#campaign h2{
+	width:650px;
+	margin:70px auto 20px auto;
+}
+#campaign #imgd{
+	display:flex;
+	justify-content:center;
+	width:100%;
+	margin:auto;
+}
+#campaign .logo1{
+	width:580px;
+}
+#campaign img{
+	width:100%;
+}
+#campaign .single-item{
+	width:200px;
+}
+
+
+
+/* ルーム */
+#room h2{
+	margin-top:170px;
+}
+#room ul{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+#room li{
+	margin-bottom:50px;
+}
+#room li img{
+	width:100%;
+}
+
+
+/* カラオケ機種❶ */
+#model h2{
+	display:inline-block;
+	width:100%;
+}
+#model ul{
+	display:flex;
+	justify-content:space-between;
+}
+#model li{
+	margin-bottom:5px;
+}
+#model li img{
+	width:100%;
+}
+
+
+/* フードメニュー */
+#food h2{
+	margin-top:170px;
+}
+#food li strong{
+	display:block;
+	font-size:30px;
+}
+#food img{
+	width:100%;
+}
+
+
+/* ドリンクメニュー */
+#drink img{
+	width:100%;
+}
+
+
+/* スイーツ */
+#sweets{
+	margin-bottom:90px;
+}
+#sweets h2{
+	margin-top:110px;
+	padding:10px 0;
+	color:#fff;
+	background:#ff7aee;
+	border-radius:5px;
+}
+#sweets img{
+	width:100%;
+}
+
+
+
+/* アクセス */
+#access h2{
+	margin-top:170px;
+}
+#access iframe{
+	width:100%;
+}
+#access th{
+	font-size:20px;
+	width:100px;
+}
+#access td{
+	font-size:19px;
+}
+
+
+/* クーポン */
+#coupon h2{
+	margin-top:170px;
+}
+#coupon img{
+	width:100%;
+	margin:20px auto 50px auto;
+}
+
+
+
+/* 店舗検索 */
+.search{
+	padding:0 1em;
+}
+.search h2{
+	width:100%;
+	margin:170px auto 0 auto;
+}
+.search p{
+	width:80%;
+	padding:10px 0;
+}
+
+
+/* フリーワード */
+#shop .free h2{
+	font-size:27px;
+}
+#shop .free p input{
+	display:block;
+	width:100%;
+	max-width:500px;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+
+/* エリア */
+#area h2{
+	font-size:27px;
+}
+#area .ul1{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+#area .ul1 li{
+	width:29%; 
+	float:none;
+	margin:auto;
+}
+#area li a{
+	display:block;
+	width:100%;
+}
+
+
+/* 収容人数 */
+#people h2{
+	font-size:27px;
+}
+#people form{
+	padding:20px 10px 13px 0;
+}
+#people form ul{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}	
+#people form li{
+	margin:0 10px 10px 0;
+}
+#people label{
+	font-size:17px;
+}
+
+
+/* カラオケ機種❷ */
+#model2 h2{
+	font-size:27px;
+}
+#model2 ul{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}	
+#model2 li{
+	width:25%;
+}
+#model2 li div{
+	width:100%;
+}
+#model2 li span{
+	display:block;
+	width:101%;
+}
+#model2 li label{
+	font-size:17px;
+}
+
+
+/* ネット予約 */
+#net{
+	padding:0 1em;
+}
+#net h2{
+	margin-top:200px;
+	width:100%;
+	
+}
+
+
+/* ご利用日時・時間・人数を決める */
+#day div{
+	margin:auto;
+}
+
+/* よくあるご質問・お問い合わせ */
+#question{
+	margin-top:150px;
+	padding:0 1em;
+}
+#question h2{
+	width:100%;
+}
+
+
+/* よくあるご質問 */
+#question1{
+	margin-bottom:120px;
+}
+#question1 h2{
+	width:92%;
+}
+
+
+/* 各種お問い合わせ */
+#question2 h2{
+	width:92%;
+}
+#question2 .ques1,#question2 .ques2{
+	float:none;
+	margin:auto;
+}
+#question2 .ques2{
+	margin-top:100px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+/* メイン */
+main{
+	padding:0 1em;
+}
+
+/* トップ */
+
+
+
+
+/* ニュース */
+#news .ni ul{
+	display:block;	
+}
+#news .ni li{
+	max-width:100%;
+	width:100%;
+	margin-bottom:50px;
+}
+#news .ni li img{
+	width:100%;
+	border-radius:10px;
+}
+#news .ni .np1{
+	font-weight:bold;
+	font-size:20px;
+	margin:10px 0;
+}
+#news .ni .np2{
+	letter-spacing:4px;
+}
+
+/* コンセプト */
+#top2 .t2d{
+	background:url(../img/mikestand2.jpg);
+	background-size:cover;
+	width:100%;
+	height:auto;
+	border-radius:10px;
+	color:#fff;
+}
+#top2 .t2d p{
+	width:100%;
+	box-sizing:border-box;
+	margin-left:5px;
+	font-size:1em;
+	letter-spacing:1px;
+}
+
+/* 料金説明 */
+#price h2{
+	width:290px;
+	margin:auto;
+	border:none;
+}
+#price h2 span{
+	display:inline-block;
+}
+#price .rs{
+	border-top:solid 1px #4000ff;
+}
+#price table{
+	width:100%;
+	box-sizing:border-box;
+	font-size:20px;
+	border-collapse:collapse;
+	margin:auto;
+}
+#price h3{
+	text-align:center;
+	width:100%;
+	background:#ddd;
+	margin:30px auto;
+	padding:20px 0;
+	font-size:18px;
+	font-weight:bold;
+}
+#price h3 span{
+	display:block;
+	text-align:center;
+}
+#price table th:first-child{
+	width:30%;
+	font-size:12px;
+	color:#0099CC;
+}
+#price table th:nth-child(2),#price table td:nth-child(2),#price table th:nth-child(3),#price table td:nth-child(3){
+	font-size:22px;
+	width:35%;
+}
+#price table small{
+	display:block;
+}
+#price table th small{
+	font-size:12px;
+}
+
+
+
+/* キャンペーン */
+#campaign{
+	width:100%;
+	margin-bottom:70px;
+}
+#campaign h2{
+	width:85%;
+	margin:50px auto 20px auto;
+}
+#campaign #imgd{
+	display:block;
+}
+#campaign .logo1{
+	max-width:320px;
+	
+}
+#campaign .logo1 img{
+	width:100%;
+	
+}	
+#campaign .drink{
+	width:200px;
+	margin:auto;	
+}
+#campaign .drink img{
+	width:100%;	
+	
+}
+
+
+/* ルーム */
+#room h2{
+	margin-top:170px;
+}
+#room ul{
+	width:100%;
+}
+#room li{
+	width:46%;
+	margin-bottom:5px;
+}
+#room li img{
+	width:100%;
+}
+#room li:nth-child(even){
+	float:left;
+}
+#room li:nth-child(odd){
+	float:right;
+}
+
+
+/* カラオケ機種❶ */
+#model h2{
+	display:inline-block;
+	width:100%;
+}
+#model ul{
+	flex-wrap:wrap;
+}
+#model li{
+	width:150px;
+	margin-bottom:20px;
+}
+#model li img{
+	width:100%;
+}
+
+
+/* フードメニュー */
+#food h2{
+	margin-top:170px;
+}
+#food li strong{
+	display:block;
+	font-size:30px;
+}
+#food img{
+	width:100%;
+}
+
+
+/* ドリンクメニュー */
+#drink img{
+	width:100%;
+}
+
+
+/* スイーツ */
+#sweets{
+	margin-bottom:90px;
+}
+#sweets h2{
+	margin-top:110px;
+	padding:10px 0;
+	color:#fff;
+	background:#ff7aee;
+	border-radius:5px;
+}
+#sweets img{
+	width:100%;
+}
+
+
+/* アクセス */
+#access h2{
+	margin-top:170px;
+}
+#access iframe{
+	width:100%;
+}
+#access table{
+	margin-left:0px;
+	
+}
+#access th{
+	font-size:18px;
+	width:100px;
+}
+#access td{
+	font-size:17px;
+}
+
+
+/* クーポン */
+#coupon h2{
+	margin-top:170px;
+}
+#coupon img{
+	width:100%;
+	margin:20px auto 50px auto;
+}
+
+
+/* ネット予約 */
+#net{
+	padding:0 1em;
+}
+#net h2{
+	margin-top:170px;
+	max-width:330px;
+	color:#fff;
+}
+
+
+/* ご利用店舗を決める */
+#shopd h2{
+	padding:1em;
+	text-indent:-1em;
+}
+
+/* ご利用日時・時間・人数を決める */
+#day h2{
+	font-size:27px;
+	padding:1em;
+	text-indent:-1em;
+}
+#day div{
+	width:100%;
+}
+#day div dl{
+	width:100%;
+	padding:1em;
+	box-sizing:border-box;
+}
+
+
+
+
+/* お客様情報を入力する */
+#information h2{
+	font-size:27px;
+	padding:1em;
+	text-indent:-1em;
+}
+#information div{
+	width:100%;	
+}
+#information dl{
+	display:block;
+	
+}
+#information dt{
+	width:100%;
+}
+#information dd{
+	width:100%;
+}
+#information textarea{
+	width:100%;
+}
+
+
+
+/* 店舗検索 */
+.search{
+	padding:0 1em;
+}
+.search h2{
+	width:100%;
+	margin:170px auto 0 auto;
+}
+.search p{
+	width:300px;
+	padding:10px 0;
+	margin:auto;
+}
+
+
+/* フリーワード */
+#shop .free h2{
+	font-size:27px;
+}
+#shop .free p input{
+	display:block;
+	width:100%;
+	max-width:400px;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+
+/* エリア */
+#area h2{
+	font-size:27px;
+}
+#area .ul1{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+#area .ul1 li{
+	width:29%; 
+	float:none;
+	margin:auto;
+}
+#area li a{
+	display:block;
+	width:100%;
+	
+	
+}
+#area li a span{
+	display:block;
+	line-height:0;
+	text-align:center;	
+}
+
+
+/* 収容人数 */
+#people h2{
+	font-size:27px;
+}
+#people form{
+	padding:20px 0;
+}
+#people form ul{
+	display:block;
+	margin:auto;
+}	
+#people form li{
+	margin:5px 0 10px -25px;
+}
+#people label{
+	font-size:17px;
+}
+
+
+/* カラオケ機種❷ */
+#model2 h2{
+	font-size:27px;
+}
+#model2 ul{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+#model2 li{
+	width:130px;
+	line-height:1em;
+	text-align:left;
+}
+#model2 li label{
+	font-size:17px;
+}
+#model2 li:first-child,#model2 li:nth-child(2){
+	margin-bottom:20px;
+}	
+#model2 li div{
+	width:90%;
+	text-align:center;
+}
+#model2 li span{
+	display:block;
+	width:90%;
+	text-align:center;
+}
+#model2 li span:last-child{
+	
+}
+
+
+
+/* よくあるご質問・お問い合わせ */
+#question{
+	padding:0 1em;
+}
+#question h2{
+	width:100%;
+	margin-top:170px;
+	padding:20px 0;
+}
+#question h2 span{
+	display:block;
+	text-align:center;
+}
+
+
+/* よくあるご質問 */
+#question1 h2,#question2 h2{
+	font-size:28px;
+	padding:10px 0;
+	margin-bottom:20px;
+	width:100%;
+}
+#question1 dl{
+	margin:auto;
+	width:100%;
+	
+}
+#question1 div dt span{
+	display:block;
+	padding-left:35px;
+}
+
+
+/* 各種お問い合わせ */
+#question2 .ques1{
+	float:none;
+	margin-bottom:60px;
+}
+#question2 .ques2 .fre span{
+	display:block;
+	margin-top:10px;
+}
+#question2 dt{
+	font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

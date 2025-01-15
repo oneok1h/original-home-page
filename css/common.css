@@ -1,0 +1,47 @@
+﻿@charset"utf-8";
+
+html,body,header,footer,article,section,aside,div,h1,h2,h3,h4,h5,h6,p,span,a,ul,ol,li,dl,dt,dd,label,input,select,option,textarea{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	font-style:normal;
+	font-size:100%;
+}
+
+
+header,footer,article,main,section,aside{
+	display:block;
+}
+
+
+/* Base Setting
+----------------------------------------------------------*/
+body{
+	color:#222;
+	font-family:"ＭＳ Ｐ明朝","細明朝体","ヒラギノ明朝 Pro W3","HiraMinProN-W3";
+	text-align:center;
+	background:url(../img/body_bg.gif) #FFF repeat-x top left;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+}
+li{
+	list-style-type:none;
+}
+img{
+	outline:none;
+	border:none;
+}
+
+/* Base Link Color Setting
+-----------------------------------------------------------*/
+a{
+	outline:none;
+	border:none;
+	color:#222;
+}
+a:hover{
+	outline:none;
+	border:none;
+	text-decoration:underline;
+}
